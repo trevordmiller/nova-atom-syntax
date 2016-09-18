@@ -1,0 +1,101 @@
+@import "./colors";
+
+
+// ==================================================================
+// RESET
+// ==================================================================
+
+.jsx.attribute-name {
+  font-style: normal !important;
+}
+
+
+// ==================================================================
+// HIGHLIGHT GROUPS BY PURPOSE
+// ==================================================================
+
+// CONSTANT
+.constant,
+.numeric,
+.boolean,
+.string.quoted,
+.punctuation.string,
+.variable.property,
+.variable.other,
+.dictionary.value,
+.css.property-value,
+.markup.link,
+.markup.raw {
+  color: @nova_purpose_constant;
+}
+
+// IDENTIFIER
+.variable.entity,
+.function.entity,
+.object.key,
+.variable.shorthandpropertyname,
+.entity.class,
+.css.attribute-name,
+.css.tag,
+.jsx.attribute-name {
+  color: @nova_purpose_identifier;
+}
+
+// STATEMENT
+.control,
+.operator,
+.css.property-name,
+.jsx.component,
+.jsx.tag {
+  color: @nova_purpose_statement;
+}
+
+// TYPE
+.storage,
+.undefined,
+.null,
+.nan {
+  color: @nova_purpose_type;
+}
+
+// GLOBAL
+.module,
+.dom,
+.this,
+.builtin,
+.process {
+  color: @nova_purpose_global;
+}
+
+// EMPHASIS
+.css.pseudo-class,
+.markup.italic,
+.markup.bold {
+  color: @nova_purpose_emphasis;
+}
+
+// SPECIAL
+.arrow,
+.brace.square,
+.brace.curly,
+.brace.round,
+.punctuation.parameters,
+.quasi.begin,
+.quasi.end,
+.dictionary.begin,
+.dictionary.end,
+.module.all,
+.css.property-list,
+.css.function,
+.markup.heading,
+.list,
+.jsx.embedded {
+  color: @nova_purpose_special;
+}
+
+// TRIVIAL
+.comment,
+.meta,
+.punctuation {
+  color: @nova_purpose_trivial;
+}

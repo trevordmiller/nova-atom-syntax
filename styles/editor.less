@@ -1,0 +1,61 @@
+@import "./colors";
+
+atom-text-editor,
+:host {
+  color: @nova_normal_white;
+  background-color: @nova_normal_black;
+
+  .gutter {
+    color: @nova_decoration_light;
+    background-color: @nova_normal_black;
+
+    .line-number {
+      opacity: 1;
+      &.cursor-line {
+        color: @nova_purpose_user_current_state;
+        background-color: @nova_normal_black;
+      }
+    }
+  }
+
+  .invisible-character {
+    color: @nova_purpose_trivial;
+  }
+
+  .indent-guide {
+    color: @nova_decoration_medium;
+  }
+
+  .wrap-guide {
+    opacity: 0;
+  }
+
+  .cursor {
+    background: @nova_purpose_user_current_state !important;
+    opacity: 0.8 !important;
+  }
+
+  .selection .region {
+    background-color: @nova_purpose_user_current_state;
+    opacity: 0.5;
+  }
+
+  .bracket-matcher .region {
+    border: none;
+    outline: 1px dotted @nova_purpose_user_current_state;
+  }
+
+  .spell-check-misspelling .region {
+    border: none;
+    outline: 1px dotted @nova_purpose_user_action_needed;
+  }
+
+  .fold-marker:after,
+  .gutter .line-number.folded {
+    color: @nova_purpose_user_current_state;
+  }
+
+  .bracket-matcher .region {
+    border-color: @nova_purpose_user_current_state;
+  }
+}

@@ -1,15 +1,58 @@
-// These colors are specific to the theme. Do not use in a package!
+// ==================================================================
+// COLORS
+// ==================================================================
 
-@very-light-gray: #c5c8c6;
-@light-gray: #969896;
-@gray: #373b41;
-@dark-gray: #282a2e;
-@very-dark-gray: #1d1f21;
+// NORMAL
+@nova_normal_black: #445660;
+@nova_normal_red: #DF8C8C;
+@nova_normal_green: #A8CE93;
+@nova_normal_yellow: #DADA93;
+@nova_normal_blue: #83AFE5;
+@nova_normal_magenta: #9A93E1;
+@nova_normal_cyan: #7FC1CA;
+@nova_normal_white: #C5D4DD;
 
-@cyan: #8abeb7;
-@blue: #81a2be;
-@purple: #b294bb;
-@green: #b5bd68;
-@red: #cc6666;
-@orange: #de935f;
-@light-orange: #f0c674;
+// BRIGHT
+@nova_bright_black: #899BA6;
+@nova_bright_red: #F2C38F;
+@nova_bright_magenta: #D18EC2;
+@nova_bright_white: #E6EEF3;
+
+// DECORATION
+@nova_decoration_dark: #1E272C;
+@nova_decoration_medium: #556873;
+@nova_decoration_light: #6A7D89;
+
+
+// ==================================================================
+// HIGHLIGHT GROUPS BY PURPOSE
+// ==================================================================
+
+@nova_purpose_user_action_needed: @nova_normal_red;
+@nova_purpose_user_current_state: @nova_normal_cyan;
+@nova_purpose_constant: @nova_normal_cyan;
+@nova_purpose_identifier: @nova_normal_blue;
+@nova_purpose_statement: @nova_normal_yellow;
+@nova_purpose_type: @nova_normal_green;
+@nova_purpose_global: @nova_normal_magenta;
+@nova_purpose_emphasis: @nova_bright_magenta;
+@nova_purpose_special: @nova_bright_red;
+@nova_purpose_trivial: @nova_bright_black;
+
+
+// ==================================================================
+// FALLBACK VARIABLES
+// ==================================================================
+
+@very-light-gray: @nova_normal_white;
+@light-gray: @nova_bright_black;
+@gray: @nova_decoration_medium;
+@dark-gray: @nova_normal_black;
+@very-dark-gray: @nova_decoration_dark;
+@cyan: @nova_purpose_user_current_state;
+@blue: @nova_purpose_identifier;
+@purple: @nova_purpose_global;
+@green: @nova_purpose_type;
+@red: @nova_purpose_user_action_needed;
+@orange: @nova_purpose_special;
+@light-orange: @nova_purpose_statement;
