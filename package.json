@@ -1,12 +1,12 @@
 {
   "name": "nova-atom-syntax",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "scripts": {
     "start": "scripts/start",
     "publish": "scripts/publish"
   },
   "description": "Nova color scheme syntax plugin for Atom",
-  "homepage": "https://trevordmiller.github.io/nova-docs",
+  "homepage": "https://trevordmiller.github.io/nova",
   "author": "Trevor D. Miller <trevordmiller@icloud.com> (http://www.trevordmiller.com)",
   "license": "MIT",
   "keywords": [
