@@ -16,7 +16,7 @@
     "color-scheme",
     "colors"
   ],
-  "repository": "https://github.com/atom/nova-atom-syntax",
+  "repository": "https://github.com/trevordmiller/nova-atom-syntax",
   "theme": "syntax",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
