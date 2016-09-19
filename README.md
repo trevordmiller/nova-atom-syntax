@@ -2,6 +2,6 @@
 
 Nova color scheme syntax plugin for Atom
 
-![Screenshot](/assets/screenshot.png?raw=true "Screenshot")
+![Screenshot](https://raw.githubusercontent.com/trevordmiller/nova-atom-syntax/master/assets/screenshot.png "Screenshot")
 
 **See the [documentation website](https://trevordmiller.github.io/nova) for more information**
