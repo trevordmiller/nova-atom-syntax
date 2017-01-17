@@ -5,7 +5,7 @@
 // RESET
 // ==================================================================
 
-.jsx.attribute-name {
+.syntax--jsx.syntax--attribute-name {
   font-style: normal !important;
 }
 
@@ -15,91 +15,91 @@
 // ==================================================================
 
 // CONSTANT
-.constant,
-.numeric,
-.boolean,
-.string.quoted,
-.punctuation.string,
-.variable.property,
-.variable.other,
-.dictionary.value,
-.css.property-value,
-.markup.link,
-.markup.raw,
-.html.id {
+.syntax--boolean,
+.syntax--constant,
+.syntax--css.syntax--property-value,
+.syntax--dictionary.syntax--value,
+.syntax--html.syntax--id,
+.syntax--markup.syntax--link,
+.syntax--markup.syntax--raw,
+.syntax--numeric,
+.syntax--punctuation.syntax--string,
+.syntax--string.syntax--quoted,
+.syntax--variable.syntax--other,
+.syntax--variable.syntax--property {
   color: @nova_purpose_constant;
 }
 
 // IDENTIFIER
-.variable.entity,
-.function.entity,
-.object.key,
-.variable.shorthandpropertyname,
-.entity.class,
-.css.attribute-name,
-.css.tag,
-.jsx.attribute-name,
-.html.tag {
+.syntax--css.syntax--attribute-name,
+.syntax--css.syntax--tag,
+.syntax--entity.syntax--class,
+.syntax--function.syntax--entity,
+.syntax--html.syntax--tag,
+.syntax--jsx.syntax--attribute-name,
+.syntax--object.syntax--key,
+.syntax--variable.syntax--entity,
+.syntax--variable.syntax--shorthandpropertyname {
   color: @nova_purpose_identifier;
 }
 
 // STATEMENT
-.control,
-.operator,
-.punctuation.operator,
-.css.property-name,
-.jsx.component,
-.jsx.tag,
-.html.attribute-name {
+.syntax--control,
+.syntax--css.syntax--property-name,
+.syntax--html.syntax--attribute-name,
+.syntax--jsx.syntax--component,
+.syntax--jsx.syntax--tag,
+.syntax--operator,
+.syntax--punctuation.syntax--operator {
   color: @nova_purpose_statement;
 }
 
 // TYPE
-.storage,
-.undefined,
-.null,
-.nan {
+.syntax--nan,
+.syntax--null,
+.syntax--storage,
+.syntax--undefined {
   color: @nova_purpose_type;
 }
 
 // GLOBAL
-.module,
-.dom,
-.this,
-.builtin,
-.process {
+.syntax--builtin,
+.syntax--dom,
+.syntax--module,
+.syntax--process,
+.syntax--this {
   color: @nova_purpose_global;
 }
 
 // EMPHASIS
-.css.pseudo-class,
-.markup.italic,
-.markup.bold {
+.syntax--css.syntax--pseudo-class,
+.syntax--markup.syntax--bold,
+.syntax--markup.syntax--italic {
   color: @nova_purpose_emphasis;
 }
 
 // SPECIAL
-.arrow,
-.brace.square,
-.brace.curly,
-.brace.round,
-.punctuation.parameters,
-.quasi.begin,
-.quasi.end,
-.dictionary.begin,
-.dictionary.end,
-.module.all,
-.css.property-list,
-.css.function,
-.markup.heading,
-.list,
-.jsx.embedded {
+.syntax--arrow,
+.syntax--brace.syntax--curly,
+.syntax--brace.syntax--round,
+.syntax--brace.syntax--square,
+.syntax--css.syntax--function,
+.syntax--css.syntax--property-list,
+.syntax--dictionary.syntax--begin,
+.syntax--dictionary.syntax--end,
+.syntax--jsx.syntax--embedded,
+.syntax--list,
+.syntax--markup.syntax--heading,
+.syntax--module.syntax--all,
+.syntax--punctuation.syntax--parameters,
+.syntax--quasi.syntax--begin,
+.syntax--quasi.syntax--end {
   color: @nova_purpose_special;
 }
 
 // TRIVIAL
-.comment,
-.meta,
-.punctuation {
+.syntax--comment,
+.syntax--meta,
+.syntax--punctuation {
   color: @nova_purpose_trivial;
 }
