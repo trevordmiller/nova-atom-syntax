@@ -3,10 +3,10 @@ set -euo pipefail
 
 release_type=$1
 
-script-log state "Pulling latest"
-git pull
+echo "Pulling latest from master"
+git checkout master && git pull
 
-script-log state "Running apm publish"
+echo "Running apm publish"
 apm publish "$release_type"
 
 script-log state "Done"
