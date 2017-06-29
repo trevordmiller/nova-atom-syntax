@@ -2,7 +2,8 @@
   "name": "nova-atom-syntax",
   "version": "1.4.1",
   "scripts": {
-    "start": "scripts/start"
+    "start": "scripts/start",
+    "release": "apm publish"
   },
   "description": "Nova color scheme syntax plugin for Atom",
   "homepage": "https://trevordmiller.github.io/nova",
