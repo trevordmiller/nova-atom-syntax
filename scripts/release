@@ -9,4 +9,4 @@ git checkout master && git pull
 echo "Running apm publish"
 apm publish "$release_type"
 
-script-log state "Done"
+echo "Done"
